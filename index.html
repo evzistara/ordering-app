@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jimmy's Diner</title>
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+    <header class="header">
+        <h1>Welcome to Jimmy's Diner</h1>
+        <h2>The best burgers and pizas in town</h2>
+    </header>
+
+    <section class="menu">
+        <h2>Menu</h2>
+    </section>
+
+    <section class="order hidden">
+        <h2>Your order</h2>
+        <div class="ordered-items">
+
+        </div>
+        <div class="total-price">
+
+        </div>
+    <button class="btn-order">Complete order</button>
+    </section>
+
+<dialog>
+    <button class="btn-close" autofocus>Close</button>
+<h2>Enter card details</h2>
+<form>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    <input type="text" id="card" name="card" placeholder="Enter card number" pattern="[0-9]{16}" required>
+    <input type="text" id="cvv" name="cvv" placeholder="Enter CVV" pattern="[0-9]{3}" required>
+    <button class="btn-order">Pay</button>
+</form>
+</dialog>
+
+<section class="thank-you hidden">
+
+</section>
+      <script src="/js/script.js" type="module"></script>
+</body>
+</html>
+
