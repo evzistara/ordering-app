@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 16px;
+    font-family: "Smythe", system-ui;
 }
 
 .header{
@@ -42,6 +43,7 @@ section {
 .flex {
     display: flex;
 align-items: center;
+gap: 10px;
 }
 
 .emoji{
@@ -91,7 +93,21 @@ padding: 0.5rem;
 
     
     @media screen and (min-width: 768px) {
+        .header{
+            align-items: center;
+        }
         h1{
             font-size: 3rem;
+        }
+        h2 {
+            font-size: 2rem;
+        }
+
+        section {
+            width: 60%;
+            margin: 4rem auto;
+        }
+        dialog {
+            width: 30%;
         }
     }
