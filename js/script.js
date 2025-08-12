@@ -45,6 +45,7 @@ let foodOrder = [];
 
 function renderOrder(orderedItem) {
   order.classList.remove("hidden");
+  thankYou.classList.add('hidden');
 
   const orderedFood = menuArray.filter((food) => food.name === orderedItem)[0];
   foodOrder.push(orderedFood);
