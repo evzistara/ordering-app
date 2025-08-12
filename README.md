@@ -1,6 +1,6 @@
 # 🍔 Jimmy's Diner – Ordering App
 
-A simple interactive food ordering web app built with **HTML**, **CSS**, and **JavaScript**.  
+A simple interactive food ordering web app built with **HTML**, **CSS**, and **JavaScript**. A project from Scrima from course [The Frontend Developer Careet Path](https://scrimba.com/frontend-path-c0j).
 Users can browse the menu, add items to their order, see the total price, and complete checkout with a payment form.
 
 ## ✨ Features
@@ -54,7 +54,6 @@ Users can browse the menu, add items to their order, see the total price, and co
 - Quantity control for each menu item
 - Persist cart in `localStorage` so it stays on reload
 - Improve form validation with custom messages
-- Add animations for adding/removing items
 
 
 
